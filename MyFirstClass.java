@@ -15,4 +15,11 @@ class AnotherMessage{
     static String GenerateAnotherMessage(){
         return "Here is another message";
     }
+
+    void CoolKid(){
+        for (int i = 0; i < 10; i++){
+            if(i == 2)
+                break;
+        }
+    }
 }
